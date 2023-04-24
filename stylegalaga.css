@@ -1,0 +1,13 @@
+body {
+    background: #000;
+    background-image: url(img/GAMES/1680585042_animals-pibig-info-p-yenot-strazhi-galaktiki-zhivotnie-oboi-4.jpg);
+    background-size: cover;
+}
+
+#wrapper {
+    width: 600px;    
+}
+
+canvas {
+    cursor: none;
+}

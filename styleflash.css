@@ -1,0 +1,68 @@
+body {
+    background-image: url(img/GAMES/flash-dc-comics-superhero-comics-mask-costumes-lightning-art.jpg);
+    background-size: cover;
+}
+
+.game {
+    width: 900px;
+    height: 300px;
+    border-bottom: 1px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 200px;    
+    background-image: url(img/GAMES/Gotham-Art.jpg);
+    background-color:#fff;    
+}
+
+#flash {
+    width: 100px;
+    height: 100px;
+    background-image: url(img/GAMES/icons8-головка-флеша-96.png);
+    box-sizing: 100px 100px;
+    position: relative;
+    top: 190px;
+    right: -20px;
+}
+
+#enemy {
+    width: 80px;
+    height: 80px;
+    background-image: url(img/GAMES/icons8-харли-квинн-dc-96.png);
+    background-size: 80px 80px;
+    position: relative;
+    top: 100px;
+    left: 880px;
+    animation: enemyMov 2s infinite linear;
+}
+
+@keyframes enemyMov {
+    0% {
+        left: 780px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 80px;
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 150px;
+    }
+}
