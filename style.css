@@ -448,25 +448,30 @@ section{
 
 
 .blogs .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 1.5rem;
 }
 
 .blogs .box-container .box{
     border: var(--border);
+    width:  30rem;
+    height: 40rem;
+ 
+   
 }
 
 .blogs .box-container .box .image{
+    width:  30rem;
     height: 25rem;
     overflow: hidden;
-    width: 100%;
+   
 }
 
 .blogs .box-container .box .image img{
-    height: 100%;
+    height: 100;
     object-fit: cover;
-    width: 100%;
+    width: 30rem;
 }
 
 
